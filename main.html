@@ -6,11 +6,11 @@
 <body>
     <script>
 
-        function gerRandomColor() {
+        function getRandomColor() {
             return "#" + Math.floor(Math.random() * 2 ** 24).toString(16).padStart(6, "0");
         }
 
-        document.body.style.backgroundColor = RandomColor();
+        document.body.style.backgroundColor = getRandomColor();
     </script>
 </body>
 </html>
